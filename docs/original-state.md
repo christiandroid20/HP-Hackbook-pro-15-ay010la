@@ -1,3 +1,8 @@
+---
+title: "Estado original y evolución"
+description: "Inventario de partida, cambios conocidos y criterios para documentar las pruebas."
+---
+
 # Estado original y evolución
 
 El proyecto corresponde a una HP Pavilion 15-ay010la con plataforma Intel Skylake. La descripción inicial del repositorio indicaba una EFI compatible con macOS Monterey a Ventura; esa frase histórica no es garantía de compatibilidad universal.
