@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8e8f1">
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <title>{{ page.title | default: site.title | escape }} · ChristyGaming18</title>
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/docs.css' | relative_url }}">
+</head>
+<body class="document-page">
+  <header class="topbar">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/favicon.svg' | relative_url }}" alt="" width="36" height="36">
+      <span>HP <b>HackBook</b></span>
+    </a>
+    <nav aria-label="Navegación principal">
+      <a href="{{ '/' | relative_url }}">Inicio</a>
+      <a href="{{ '/#equipo' | relative_url }}">El equipo</a>
+      <a href="{{ '/#documentacion' | relative_url }}">Documentación</a>
+      <a href="https://github.com/christiandroid20/HP-Hackbook-pro-15-ay010la">GitHub ↗</a>
+    </nav>
+  </header>
+  <main class="doc-main">
+    <div class="doc-breadcrumb"><a href="{{ '/' | relative_url }}">⌂ Inicio</a><span>／</span><span>Cuaderno técnico</span></div>
+    <article class="doc-paper">
+      <div class="doc-kicker"><span>✿</span> HP HACKBOOK · CUADERNO DE PROYECTO</div>
+      <div class="doc-title-row">
+        <div class="doc-title-mark" aria-hidden="true">✧</div>
+        <div class="doc-title-copy">
+          <h1>{{ page.title | default: site.title | escape }}</h1>
+          <p class="doc-subtitle">{{ page.description | default: "Notas técnicas, pruebas y documentación del proyecto." | escape }}</p>
+        </div>
+      </div>
+      <div class="doc-content">
+        {{ content }}
+      </div>
+      <div class="doc-signature" aria-label="Firma de ChristyGaming18">
+        <span class="signature-flower">✿</span>
+        <span class="signature-script">ChristyGaming18</span>
+        <span class="signature-caption">hecho con paciencia, curiosidad y cariño por el hardware retro</span>
+      </div>
+    </article>
+    <div class="doc-bottom-nav">
+      <a href="{{ '/' | relative_url }}">← Volver a la página principal</a>
+      <a href="https://github.com/christiandroid20/HP-Hackbook-pro-15-ay010la">Ver archivos del proyecto ↗</a>
+    </div>
+  </main>
+  <footer>
+    <span class="footer-brand">ChristyGaming18</span>
+    <span>HP HackBook · documentación en evolución ♡</span>
+  </footer>
+</body>
+</html>
