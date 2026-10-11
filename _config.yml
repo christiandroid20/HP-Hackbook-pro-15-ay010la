@@ -1,0 +1,16 @@
+title: "HP HackBook Pro 15-ay010la"
+description: "Bitácora técnica de ChristyGaming18 para el HP Pavilion 15-ay010la."
+url: "https://christiandroid20.github.io"
+baseurl: "/HP-Hackbook-pro-15-ay010la"
+markdown: kramdown
+plugins: []
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      lang: es
+exclude:
+  - README.md
+  - EFI/README.md
+  - screenshots/README.md
