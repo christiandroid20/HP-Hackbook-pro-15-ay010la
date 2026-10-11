@@ -1,3 +1,8 @@
+---
+title: "Historial de cambios"
+description: "Evolución del sitio, documentación y estado del proyecto."
+---
+
 # Historial de cambios
 
 Los cambios más recientes aparecen primero.
