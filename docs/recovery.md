@@ -1,3 +1,8 @@
+---
+title: "Recuperación y arranque UEFI"
+description: "Buenas prácticas de respaldo, arranque OpenCore y privacidad de la EFI."
+---
+
 # Recuperación y arranque UEFI
 
 ## Antes de tocar OpenCore
