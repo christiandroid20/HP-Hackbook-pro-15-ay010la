@@ -3,3 +3,74 @@
 .table-wrap{overflow-x:auto;border:1px solid #efdfec;border-radius:22px;background:#fff;box-shadow:var(--shadow);-webkit-overflow-scrolling:touch}.comparison-table{border-collapse:separate;border-spacing:0;width:100%;min-width:820px;text-align:left;font-size:.88rem;line-height:1.55}.comparison-table thead th{background:linear-gradient(100deg,#f8e7f1,#efebfc,#eaf5fc);font-family:Manrope,sans-serif;font-size:.78rem;letter-spacing:.025em;color:#66516f;padding:18px 17px;border-bottom:1px solid #eadbea}.comparison-table tbody th{font-weight:800;color:#51415a;min-width:135px;background:#fffafd}.comparison-table td,.comparison-table tbody th{padding:16px 17px;vertical-align:top;border-bottom:1px solid #f1e7f0}.comparison-table tbody tr:last-child td,.comparison-table tbody tr:last-child th{border-bottom:0}.comparison-table tbody tr:hover td,.comparison-table tbody tr:hover th{background:#fffbfe}.comparison-table td{color:#6e6374;min-width:185px}.status{display:inline-block;border-radius:999px;padding:5px 9px;font-size:.7rem;font-weight:800;white-space:nowrap}.status-same{background:#f1edf8;color:#7a6895}.status-done{background:#e6f5ed;color:#3c8064}.status-test{background:#fff1d9;color:#986c24}.status-pending{background:#fce8f1;color:#a65783}.table-note{font-size:.82rem;color:#8b7c91;margin:14px 4px 26px}.inline-notes-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:23px}.inline-note{position:relative;padding:23px 21px 20px;border:1px solid var(--line);border-radius:19px;background:linear-gradient(145deg,#fff,#fff8fc)}.inline-note:nth-child(2){background:linear-gradient(145deg,#fff,#f8f5ff)}.inline-note:nth-child(3){background:linear-gradient(145deg,#fff,#f2faff)}.note-number{display:grid;place-items:center;width:34px;height:34px;border-radius:12px;background:#f8e3ef;color:#a65c89;font-size:.8rem;font-weight:800}.inline-note h3{font-family:Manrope,sans-serif;font-size:1rem;margin:14px 0 7px}.inline-note p{font-size:.84rem;color:var(--muted);margin:0}.signature{font-family:'Dancing Script','Segoe Script',cursive;font-size:1.6rem;font-style:italic;color:#a65c89;letter-spacing:-.03em}.signature span{font-family:inherit;color:#d38ab4;font-size:1.1rem}@media(max-width:850px){.inline-notes-grid{grid-template-columns:1fr}}
 /* Identidad visual de Christy en la portada */
 .hero{padding-right:clamp(25px,7vw,88px)}.hero-avatar{position:absolute;right:clamp(16px,3vw,42px);bottom:22px;width:min(32%,330px);margin:0;z-index:1}.hero-avatar img{display:block;width:100%;height:auto;filter:drop-shadow(0 14px 18px rgba(95,65,100,.14))}.hero-avatar figcaption{font-size:.72rem;text-align:center;color:#8b6c91;margin-top:-8px}.hero h1,.hero .lead,.hero .hero-actions,.hero .hero-note{position:relative;z-index:2;max-width:68%}.hero:after{right:34%;top:13%}@media(max-width:760px){.hero-avatar{position:relative;right:auto;bottom:auto;width:min(100%,340px);margin:25px auto -12px}.hero h1,.hero .lead,.hero .hero-actions,.hero .hero-note{max-width:100%}.hero:after{right:5%;top:5%}}
+
+
+/* Portada v2: ilustración protagonista y estética tech pastel */
+.hero{
+  padding:clamp(34px,6vw,76px) clamp(22px,5.5vw,72px) 0;
+  background:
+    linear-gradient(rgba(151,130,184,.055) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(151,130,184,.055) 1px,transparent 1px),
+    radial-gradient(ellipse at 90% 8%,rgba(191,220,250,.85),transparent 35%),
+    radial-gradient(ellipse at 5% 60%,rgba(242,207,225,.75),transparent 42%),
+    linear-gradient(135deg,#fffafd,#f5f1ff 65%,#edf7ff);
+  background-size:28px 28px,28px 28px,auto,auto,auto;
+  border-color:#e4d8ef;
+  box-shadow:0 24px 70px rgba(77,59,105,.09);
+}
+.hero:before{
+  content:"SYSTEM ONLINE  //  SKYLAKE PROJECT";
+  position:absolute;right:26px;top:22px;
+  padding:7px 11px;border:1px solid #d8cce8;border-radius:8px;
+  background:rgba(255,255,255,.65);color:#8b75a5;
+  font:700 .62rem/1.2 'DM Sans',sans-serif;letter-spacing:.13em;
+}
+.hero:after{right:6%;top:14%;font-size:clamp(2rem,4vw,3.8rem);opacity:.48}
+.hero h1,.hero .lead,.hero .hero-actions,.hero .hero-note{
+  max-width:850px;position:relative;z-index:2
+}
+.hero h1{max-width:900px;text-wrap:balance}
+.hero .lead{max-width:760px}
+.hero-note{margin:28px 0 30px}
+.hero-avatar{
+  position:relative;right:auto;bottom:auto;
+  width:100%;max-width:none;margin:0 auto;
+  padding:clamp(12px,2.5vw,26px);
+  border:1px solid rgba(218,205,241,.8);
+  border-bottom:0;border-radius:24px 24px 0 0;
+  overflow:hidden;
+  background:
+    radial-gradient(ellipse at 50% 110%,rgba(179,148,224,.26),transparent 58%),
+    linear-gradient(rgba(198,183,230,.09) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(198,183,230,.09) 1px,transparent 1px),
+    linear-gradient(135deg,#28243b,#34304b 55%,#222e43);
+  background-size:auto,24px 24px,24px 24px,auto;
+  box-shadow:inset 0 1px rgba(255,255,255,.1),0 -10px 40px rgba(106,83,145,.08);
+}
+.hero-avatar:before{
+  content:"CHRISTYGAMING18  •  PERSONAL BUILD";
+  display:block;margin:0 0 12px;color:#e7d8ff;
+  font:700 .65rem/1.4 'DM Sans',sans-serif;letter-spacing:.16em;
+  text-align:left;opacity:.9
+}
+.hero-avatar img{
+  display:block;width:100%;height:auto;max-height:490px;
+  object-fit:contain;object-position:center;
+  filter:drop-shadow(0 18px 26px rgba(10,8,25,.3))
+}
+.hero-avatar figcaption{
+  margin:8px 0 0;color:#d6c8ed;font-size:.76rem;
+  letter-spacing:.035em;text-align:center
+}
+@media(max-width:760px){
+  .hero{padding:42px 22px 0}
+  .hero:before{position:relative;display:inline-block;top:auto;right:auto;margin-bottom:22px}
+  .hero-avatar{width:calc(100% + 2px);padding:12px 10px 15px;border-radius:18px 18px 0 0}
+  .hero-avatar img{max-height:none}
+  .hero-avatar:before{font-size:.56rem;letter-spacing:.1em}
+  .hero .hero-note{margin:24px 0}
+}
+@media(max-width:560px){
+  .hero{padding:30px 18px 0}
+  .hero-avatar{margin-top:0}
+}
