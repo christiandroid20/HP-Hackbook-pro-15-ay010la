@@ -1,3 +1,8 @@
+---
+title: "Compatibilidad con macOS"
+description: "Versiones reportadas, estado de las pruebas y validaciones pendientes."
+---
+
 # Compatibilidad de macOS
 
 La documentación histórica menciona Monterey a Ventura. También se han reportado pruebas posteriores hasta Tahoe 26, pero aún no hay evidencias en este repositorio para certificar cada versión, servicio o EFI.
