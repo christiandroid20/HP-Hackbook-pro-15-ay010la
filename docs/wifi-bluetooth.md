@@ -1,3 +1,8 @@
+---
+title: "Wi-Fi y Bluetooth"
+description: "Diagnóstico de la Intel Wireless 3160 y registro de resultados por sistema."
+---
+
 # Wi-Fi y Bluetooth
 
 Se ha probado una tarjeta Intel Wireless 3160 procedente de un equipo Lenovo. Se reportó Wi-Fi funcional en Linux/macOS y en Recuperación de macOS, mientras que Windows presenta un problema de inicio o inicialización. La causa no está confirmada; no debe atribuirse automáticamente a una lista blanca de BIOS.
