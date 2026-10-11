@@ -1,3 +1,8 @@
+---
+title: "HDMI y audio"
+description: "Pruebas de vídeo y salida de sonido por HDMI."
+---
+
 # HDMI y audio
 
 Se reportó trabajo previo en el audio HDMI, pero aún no se ha añadido la configuración exacta. La salida de audio HDMI depende de la ruta gráfica, el controlador de audio y la versión del sistema.
