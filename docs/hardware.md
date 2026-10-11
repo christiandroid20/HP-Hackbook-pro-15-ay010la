@@ -1,3 +1,8 @@
+---
+title: "Hardware · HP Pavilion 15-ay010la"
+description: "Configuración de fábrica y componentes actuales del portátil."
+---
+
 # Hardware — HP Pavilion 15-ay010la
 
 ## Configuración de fábrica conocida
