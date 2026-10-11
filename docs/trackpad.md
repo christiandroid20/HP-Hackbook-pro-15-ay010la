@@ -1,3 +1,8 @@
+---
+title: "Trackpad"
+description: "Checklist para validar gestos, clics, suspensión y reanudación."
+---
+
 # Trackpad
 
 Se reportó que el trackpad recibió ajustes con ayuda externa, pero aún no se ha añadido la configuración exacta ni una matriz de pruebas. No se deben inventar kexts ni parámetros sin inspeccionar la EFI real.
