@@ -491,3 +491,19 @@ main{max-width:1200px;margin:0 12px;padding:12px 20px;background:#efefef;border:
 footer{margin:0 12px;padding:20px;background:#c6c6c6;border:1px solid;border-color:#fff #777 #777 #fff;color:#293e52}
 .network-indicator{border-radius:0}
 @media(max-width:560px){.ie-browser-frame{margin:6px 6px 0}.ie-toolbar{gap:3px}.ie-tool{padding:2px 4px}.system-strip,.topbar,.compact-player,footer{margin-left:6px;margin-right:6px}main{margin:0 6px;padding:10px}.ie-menubar span{padding:2px 6px}.ie-address{min-width:90px}}
+
+
+/* IE window layout: expand the gray browser/page canvas, leave only slim teal gutters */
+html{background:#008080}
+body{width:auto;max-width:none;margin:0 auto;padding:0;min-height:100vh;background:#008080}
+.ie-browser-frame{margin:8px 8px 0}
+.system-strip{margin:0 8px}
+.topbar{margin:0 8px}
+.compact-player{margin:0 8px}
+main{width:auto;max-width:none;box-sizing:border-box;margin:0 8px;padding:clamp(16px,2.5vw,34px);background:#e7e7e7}
+.hero{width:100%;box-sizing:border-box;margin:0 0 clamp(22px,3vw,36px);padding:clamp(22px,4vw,52px)}
+.hero-layout{width:100%;max-width:1480px;margin:0 auto}
+main>.section-heading,main>.spec-grid,main>.table-wrap,main>.doc-grid,main>.safety,main>.inline-note,main>section{max-width:1480px;margin-left:auto;margin-right:auto}
+footer{margin:0 8px 8px}
+@media(min-width:1500px){main{padding-left:clamp(30px,4vw,64px);padding-right:clamp(30px,4vw,64px)}}
+@media(max-width:560px){.ie-browser-frame{margin:5px 5px 0}.system-strip,.topbar,.compact-player,footer{margin-left:5px;margin-right:5px}main{margin:0 5px;padding:12px}}
