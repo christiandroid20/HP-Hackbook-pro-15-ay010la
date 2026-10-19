@@ -52,7 +52,7 @@ async function loadAudioFolder() {
     });
     if (!response.ok) throw new Error('Audio folder unavailable');
     const files = await response.json();
-    const supported = /\\.(mp3|ogg|oga|wav|m4a|aac|opus|flac|webm)$/i;
+    const supported = /\.(mp3|ogg|oga|wav|m4a|aac|opus|flac|webm)$/i;
     tracks = files
       .filter(file => file.type === 'file' && supported.test(file.name) && file.download_url)
       .map(file => ({ src: file.download_url, label: file.name }));
