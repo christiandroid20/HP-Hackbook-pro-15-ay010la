@@ -402,3 +402,22 @@ footer a{color:#9de9ff}
 
 /* CHRISTY FM — reproductor retro preparado para audios futuros */
 .music-player{padding:0 0 78px}.radio-window{overflow:hidden;border:2px solid #c8b9e8;border-radius:14px;background:#fffaff;box-shadow:0 18px 45px rgba(62,43,91,.13)}.radio-titlebar{display:flex;align-items:center;gap:10px;padding:11px 16px;background:linear-gradient(90deg,#423b9b,#7367c8 65%,#a18cdd);color:#fff;font:700 .82rem 'DM Sans',sans-serif;letter-spacing:.04em}.radio-lights{margin-left:auto;color:#ffd9ed;letter-spacing:3px;font-size:.72rem}.radio-body{display:flex;align-items:center;gap:clamp(20px,4vw,48px);padding:clamp(22px,5vw,44px);background:radial-gradient(ellipse at 12% 50%,#f8dff0,transparent 34%),linear-gradient(120deg,#fffaff,#f0edff 65%,#e8f5ff)}.radio-disc{width:clamp(112px,17vw,180px);aspect-ratio:1;flex-shrink:0;display:grid;place-items:center;border:8px solid #302844;border-radius:50%;background:repeating-radial-gradient(circle,#3e3157 0 3px,#211b31 4px 7px);box-shadow:0 8px 20px #30284440;animation:disc-idle 8s linear infinite}.radio-disc span{display:grid;place-items:center;width:35%;aspect-ratio:1;border-radius:50%;background:#f4c9e2;color:#4b3b69;font-size:.7rem;font-weight:900}.radio-copy{flex:1;min-width:0}.radio-copy h2{margin:0 0 10px;font:800 clamp(1.5rem,3.5vw,2.4rem)/1.15 Manrope,sans-serif;letter-spacing:-.04em;color:#352a50}.radio-copy>p:not(.eyebrow){color:#70647e;margin:0 0 17px}.retro-audio{width:100%;max-width:580px;accent-color:#a76dc1}.audio-status{font-size:.8rem;color:#9875a4!important;margin:10px 0 0!important}.radio-footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:10px 16px;background:#eee8fa;border-top:1px solid #d9ccec;color:#786a94;font-size:.68rem;font-weight:800;letter-spacing:.08em}.music-player .eyebrow{margin-bottom:9px}@keyframes disc-idle{to{transform:rotate(360deg)}}@media(max-width:560px){.music-player{padding-bottom:55px}.radio-body{flex-direction:column;align-items:flex-start}.radio-disc{align-self:center}.radio-footer{font-size:.6rem}}@media(prefers-reduced-motion:reduce){.radio-disc{animation:none}}
+
+
+/* Homepage refresh: illustrated retro-computer profile + integrated radio */
+.hero{padding-bottom:clamp(20px,3vw,34px);background:linear-gradient(135deg,#e8edf0 0%,#f6e8f3 56%,#e2f3f7 100%);position:relative;overflow:hidden}
+.hero-layout{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(280px,.98fr);align-items:center;gap:clamp(20px,3.5vw,44px)}
+.hero-copy{min-width:0;position:relative;z-index:1}
+.hero-avatar{margin:0;min-width:0;width:100%;padding:0;overflow:hidden;border:2px solid #6f8494;border-top-color:#fff;border-left-color:#fff;border-radius:3px;background:#0a2034;box-shadow:inset 1px 1px #fff,6px 6px 0 #a6b0ba}
+.avatar-windowbar{display:flex;justify-content:space-between;gap:8px;padding:8px 10px;background:linear-gradient(90deg,#123d77,#4b79bd 60%,#9f8ed5);color:#fff;font:700 .64rem/1.4 "Courier New",monospace;letter-spacing:.02em}
+.hero-avatar img{display:block;width:100%;height:auto;max-height:560px;object-fit:contain;filter:drop-shadow(0 5px 12px #07152240)}
+.hero-avatar figcaption{padding:9px 12px;border-top:1px solid #47677f;background:#102a40;color:#c7e5f2;font:700 .62rem/1.5 "Courier New",monospace}
+.hero:after{content:"HTML 95  /  USER PROFILE";position:absolute;right:2%;bottom:1%;color:#087ca3;opacity:.09;font:900 clamp(1.2rem,3vw,2.8rem)/1 "Courier New",monospace;pointer-events:none}
+.track-list{display:grid;gap:8px;margin:16px 0 14px;max-width:580px}
+.track-button{display:grid;grid-template-columns:36px 1fr 24px;align-items:center;gap:10px;text-align:left;padding:11px 12px;border:1px solid #b9a9d1;border-radius:5px;background:#fffaff;color:#4a3b62;font:700 .75rem/1.4 "Courier New",monospace;cursor:pointer;box-shadow:inset 1px 1px #fff,2px 2px 0 #d5c8e6}
+.track-button span:first-child{display:grid;place-items:center;width:30px;height:30px;background:#eee4fa;color:#8455a3;border-radius:3px}
+.track-button span:last-child{text-align:center;color:#a45b9c}
+.track-button:hover,.track-button.active{border-color:#9775bf;background:#f5eaff}
+.track-button.active span:first-child{background:#7757a8;color:white}
+.track-button:focus-visible{outline:3px solid #2784ac;outline-offset:3px}
+@media(max-width:760px){.hero-layout{grid-template-columns:1fr}.hero-avatar{max-width:520px;margin:0 auto;width:100%}.hero-copy{order:0}.hero-avatar{order:1}.hero{padding-bottom:20px}}
